@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50A57C9221F8CAE00278695 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = C50A57C8221F8CAE00278695 /* starfield.sks */; };
+		C50A57CB221F9C4B00278695 /* Starfield2.sks in Resources */ = {isa = PBXBuildFile; fileRef = C50A57CA221F9C4A00278695 /* Starfield2.sks */; };
+		C50A57CD221FAF1100278695 /* GameSceneExample.bk in Sources */ = {isa = PBXBuildFile; fileRef = C50A57CC221FAF1100278695 /* GameSceneExample.bk */; };
+		C50A57CF2224F32C00278695 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = C50A57CE2224F32B00278695 /* Explosion.sks */; };
+		C5472757223990E30042560E /* usefulCode in Resources */ = {isa = PBXBuildFile; fileRef = C5472756223990E20042560E /* usefulCode */; };
+		C54865CC230386C200AC5E66 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54865CB230386C200AC5E66 /* GameElements.swift */; };
+		C553EC89221E2DF00074BDE9 /* InfiniteScrollingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C553EC88221E2DEE0074BDE9 /* InfiniteScrollingBackground.swift */; };
+		C553EC8D221E34350074BDE9 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = C553EC8C221E34350074BDE9 /* MyParticle.sks */; };
+		C5750A74225ECAA0005D3FC2 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5750A73225ECAA0005D3FC2 /* MenuScene.sks */; };
+		C5750A76225ECE3E005D3FC2 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750A75225ECE3E005D3FC2 /* MenuScene.swift */; };
+		C59A005420D9F19A00308695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A005320D9F19900308695 /* AppDelegate.swift */; };
+		C59A005620D9F19E00308695 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C59A005520D9F19E00308695 /* GameScene.sks */; };
+		C59A005820D9F19F00308695 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C59A005720D9F19F00308695 /* Actions.sks */; };
+		C59A005A20D9F1A100308695 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A005920D9F1A100308695 /* GameScene.swift */; };
+		C59A005C20D9F1A400308695 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A005B20D9F1A300308695 /* GameViewController.swift */; };
+		C59A005F20D9F1A600308695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59A005D20D9F1A600308695 /* Main.storyboard */; };
+		C59A006120D9F1E800308695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59A006020D9F1E800308695 /* Assets.xcassets */; };
+		C59A006420D9F1E800308695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59A006220D9F1E800308695 /* LaunchScreen.storyboard */; };
+		C59A006C20D9FC3E00308695 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = C59A006B20D9FC3E00308695 /* MyTileSet.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C50A57C8221F8CAE00278695 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+		C50A57CA221F9C4A00278695 /* Starfield2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Starfield2.sks; path = "../../../../Downloads/SpaceGameReloaded-master/SpacegameReloaded/Assets/Starfield2.sks"; sourceTree = "<group>"; };
+		C50A57CC221FAF1100278695 /* GameSceneExample.bk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameSceneExample.bk; sourceTree = "<group>"; };
+		C50A57CE2224F32B00278695 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		C5472756223990E20042560E /* usefulCode */ = {isa = PBXFileReference; lastKnownFileType = text; path = usefulCode; sourceTree = "<group>"; };
+		C54865CB230386C200AC5E66 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		C553EC88221E2DEE0074BDE9 /* InfiniteScrollingBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingBackground.swift; sourceTree = "<group>"; };
+		C553EC8C221E34350074BDE9 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		C5750A73225ECAA0005D3FC2 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		C5750A75225ECE3E005D3FC2 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		C59A005020D9F19700308695 /* Space Rocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Rocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59A005320D9F19900308695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C59A005520D9F19E00308695 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C59A005720D9F19F00308695 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C59A005920D9F1A100308695 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C59A005B20D9F1A300308695 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C59A005E20D9F1A600308695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C59A006020D9F1E800308695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59A006320D9F1E800308695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C59A006520D9F1E800308695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59A006B20D9FC3E00308695 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59A004D20D9F19700308695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59A004720D9F19600308695 = {
+			isa = PBXGroup;
+			children = (
+				C59A005220D9F19800308695 /* Space Rocks */,
+				C59A005120D9F19700308695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59A005120D9F19700308695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59A005020D9F19700308695 /* Space Rocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59A005220D9F19800308695 /* Space Rocks */ = {
+			isa = PBXGroup;
+			children = (
+				C553EC88221E2DEE0074BDE9 /* InfiniteScrollingBackground.swift */,
+				C59A005320D9F19900308695 /* AppDelegate.swift */,
+				C50A57CE2224F32B00278695 /* Explosion.sks */,
+				C5750A73225ECAA0005D3FC2 /* MenuScene.sks */,
+				C59A005520D9F19E00308695 /* GameScene.sks */,
+				C50A57C8221F8CAE00278695 /* starfield.sks */,
+				C553EC8C221E34350074BDE9 /* MyParticle.sks */,
+				C59A005720D9F19F00308695 /* Actions.sks */,
+				C5750A75225ECE3E005D3FC2 /* MenuScene.swift */,
+				C59A005920D9F1A100308695 /* GameScene.swift */,
+				C54865CB230386C200AC5E66 /* GameElements.swift */,
+				C59A005B20D9F1A300308695 /* GameViewController.swift */,
+				C50A57CC221FAF1100278695 /* GameSceneExample.bk */,
+				C59A005D20D9F1A600308695 /* Main.storyboard */,
+				C59A006020D9F1E800308695 /* Assets.xcassets */,
+				C50A57CA221F9C4A00278695 /* Starfield2.sks */,
+				C59A006220D9F1E800308695 /* LaunchScreen.storyboard */,
+				C59A006520D9F1E800308695 /* Info.plist */,
+				C59A006B20D9FC3E00308695 /* MyTileSet.sks */,
+				C5472756223990E20042560E /* usefulCode */,
+			);
+			path = "Space Rocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59A004F20D9F19700308695 /* Space Rocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59A006820D9F1E800308695 /* Build configuration list for PBXNativeTarget "Space Rocks" */;
+			buildPhases = (
+				C59A004C20D9F19700308695 /* Sources */,
+				C59A004D20D9F19700308695 /* Frameworks */,
+				C59A004E20D9F19700308695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Rocks";
+			productName = "Space Rocks";
+			productReference = C59A005020D9F19700308695 /* Space Rocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59A004820D9F19600308695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CozCon;
+				TargetAttributes = {
+					C59A004F20D9F19700308695 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = C59A004B20D9F19600308695 /* Build configuration list for PBXProject "Space Rocks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59A004720D9F19600308695;
+			productRefGroup = C59A005120D9F19700308695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59A004F20D9F19700308695 /* Space Rocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59A004E20D9F19700308695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5472757223990E30042560E /* usefulCode in Resources */,
+				C59A006C20D9FC3E00308695 /* MyTileSet.sks in Resources */,
+				C59A005F20D9F1A600308695 /* Main.storyboard in Resources */,
+				C50A57C9221F8CAE00278695 /* starfield.sks in Resources */,
+				C59A005620D9F19E00308695 /* GameScene.sks in Resources */,
+				C59A006120D9F1E800308695 /* Assets.xcassets in Resources */,
+				C553EC8D221E34350074BDE9 /* MyParticle.sks in Resources */,
+				C5750A74225ECAA0005D3FC2 /* MenuScene.sks in Resources */,
+				C50A57CB221F9C4B00278695 /* Starfield2.sks in Resources */,
+				C50A57CF2224F32C00278695 /* Explosion.sks in Resources */,
+				C59A006420D9F1E800308695 /* LaunchScreen.storyboard in Resources */,
+				C59A005820D9F19F00308695 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59A004C20D9F19700308695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50A57CD221FAF1100278695 /* GameSceneExample.bk in Sources */,
+				C59A005A20D9F1A100308695 /* GameScene.swift in Sources */,
+				C553EC89221E2DF00074BDE9 /* InfiniteScrollingBackground.swift in Sources */,
+				C5750A76225ECE3E005D3FC2 /* MenuScene.swift in Sources */,
+				C59A005C20D9F1A400308695 /* GameViewController.swift in Sources */,
+				C54865CC230386C200AC5E66 /* GameElements.swift in Sources */,
+				C59A005420D9F19A00308695 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C59A005D20D9F1A600308695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59A005E20D9F1A600308695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C59A006220D9F1E800308695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59A006320D9F1E800308695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59A006620D9F1E800308695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59A006720D9F1E800308695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59A006920D9F1E800308695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJBCN9BW86;
+				INFOPLIST_FILE = "Space Rocks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CozCon.Space-Rocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59A006A20D9F1E800308695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJBCN9BW86;
+				INFOPLIST_FILE = "Space Rocks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CozCon.Space-Rocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59A004B20D9F19600308695 /* Build configuration list for PBXProject "Space Rocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59A006620D9F1E800308695 /* Debug */,
+				C59A006720D9F1E800308695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59A006820D9F1E800308695 /* Build configuration list for PBXNativeTarget "Space Rocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59A006920D9F1E800308695 /* Debug */,
+				C59A006A20D9F1E800308695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59A004820D9F19600308695 /* Project object */;
+}

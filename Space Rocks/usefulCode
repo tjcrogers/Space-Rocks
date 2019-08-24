@@ -1,0 +1,36 @@
+
+// Declaring the InfiniteScrollingBackground Instance:
+// var scroller : InfiniteScrollingBackground?
+
+/*override func didMove(to view: SKView) {
+let background = SKSpriteNode(imageNamed: "StarBackground.png")
+background.position = CGPoint(x: size.width/2, y: size.height/2)
+addChild(background)
+}*/
+
+
+
+
+/*// Getting the images:
+let images = [
+UIImage(named: "StarBackground.png")!
+// UIImage(named: "bgImage2")!
+]
+// Initializing InfiniteScrollingBackground's Instance:
+scroller = InfiniteScrollingBackground(images: images, scene: self,scrollDirection: .right,transitionSpeed: 3)
+// Using it:
+scroller?.scroll()
+// (Optional) Changing the instance's zPosition:
+scroller?.zPosition = 1*/
+
+ //self.physicsWorld.gravity = CGVector(dx: 0, dy: 0) //no gravity pulling down or to the side
+
+
+
+/*motionManger.accelerometerUpdateInterval = 0.2
+motionManger.startAccelerometerUpdates(to: OperationQueue.current!) { (data:CMAccelerometerData?, error:Error?) in
+if let accelerometerData = data {
+let acceleration = accelerometerData.acceleration
+self.xAcceleration = CGFloat(acceleration.y) * 0.75 + self.xAcceleration * 0.25
+}
+}*/
